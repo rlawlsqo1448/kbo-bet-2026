@@ -17,7 +17,7 @@ export function useKboData() {
       setError(null);
       // data.json은 GitHub Actions에 의해 주기적으로 업데이트됨
       // 캐시 방지를 위해 타임스탬프 쿼리 파라미터 추가
-      const res = await fetch(`/data.json?t=${Date.now()}`);
+      const res = await fetch(`${import.meta.env.BASE_URL}data.json?t=${Date.now()}`);
       if (!res.ok) throw new Error("데이터 파일을 불러올 수 없습니다.");
       const json: DashboardData = await res.json();
       setData(json);
