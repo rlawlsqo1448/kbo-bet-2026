@@ -1,0 +1,277 @@
+{
+  "lastUpdated": "2026-03-29 20:51:06",
+  "standings": [
+    {
+      "cpTeamId": "HH",
+      "shortName": "한화",
+      "fullName": "한화 이글스",
+      "rank": 1,
+      "wins": 2,
+      "losses": 0,
+      "draws": 0,
+      "winRate": 1.0,
+      "gamesBack": "0.0",
+      "streak": "2승",
+      "logoUrl": "https://t1.daumcdn.net/media/img-section/sports13/logo/team/1/HH_300300.png"
+    },
+    {
+      "cpTeamId": "SK",
+      "shortName": "SSG",
+      "fullName": "SSG 랜더스",
+      "rank": 1,
+      "wins": 2,
+      "losses": 0,
+      "draws": 0,
+      "winRate": 1.0,
+      "gamesBack": "0.0",
+      "streak": "2승",
+      "logoUrl": "https://t1.daumcdn.net/media/img-section/sports13/logo/team/1/SK_300300.png"
+    },
+    {
+      "cpTeamId": "KT",
+      "shortName": "KT",
+      "fullName": "KT 위즈",
+      "rank": 1,
+      "wins": 2,
+      "losses": 0,
+      "draws": 0,
+      "winRate": 1.0,
+      "gamesBack": "0.0",
+      "streak": "2승",
+      "logoUrl": "https://t1.daumcdn.net/media/img-section/sports13/logo/team/1/KT_300300.png"
+    },
+    {
+      "cpTeamId": "LT",
+      "shortName": "롯데",
+      "fullName": "롯데 자이언츠",
+      "rank": 1,
+      "wins": 2,
+      "losses": 0,
+      "draws": 0,
+      "winRate": 1.0,
+      "gamesBack": "0.0",
+      "streak": "2승",
+      "logoUrl": "https://t1.daumcdn.net/media/img-section/sports13/logo/team/1/LT_300300.png"
+    },
+    {
+      "cpTeamId": "NC",
+      "shortName": "NC",
+      "fullName": "NC 다이노스",
+      "rank": 5,
+      "wins": 1,
+      "losses": 1,
+      "draws": 0,
+      "winRate": 0.5,
+      "gamesBack": "1.0",
+      "streak": "1패",
+      "logoUrl": "https://t1.daumcdn.net/media/img-section/sports13/logo/team/1/NC_300300.png"
+    },
+    {
+      "cpTeamId": "OB",
+      "shortName": "두산",
+      "fullName": "두산 베어스",
+      "rank": 5,
+      "wins": 1,
+      "losses": 1,
+      "draws": 0,
+      "winRate": 0.5,
+      "gamesBack": "1.0",
+      "streak": "1승",
+      "logoUrl": "https://t1.daumcdn.net/media/img-section/sports13/logo/team/1/OB_300300.png"
+    },
+    {
+      "cpTeamId": "LG",
+      "shortName": "LG",
+      "fullName": "LG 트윈스",
+      "rank": 7,
+      "wins": 0,
+      "losses": 2,
+      "draws": 0,
+      "winRate": 0.0,
+      "gamesBack": "2.0",
+      "streak": "2패",
+      "logoUrl": "https://t1.daumcdn.net/media/img-section/sports13/logo/team/1/LG_300300.png"
+    },
+    {
+      "cpTeamId": "SS",
+      "shortName": "삼성",
+      "fullName": "삼성 라이온즈",
+      "rank": 7,
+      "wins": 0,
+      "losses": 2,
+      "draws": 0,
+      "winRate": 0.0,
+      "gamesBack": "2.0",
+      "streak": "2패",
+      "logoUrl": "https://t1.daumcdn.net/media/img-section/sports13/logo/team/1/SS_300300.png"
+    },
+    {
+      "cpTeamId": "HT",
+      "shortName": "KIA",
+      "fullName": "KIA 타이거즈",
+      "rank": 7,
+      "wins": 0,
+      "losses": 2,
+      "draws": 0,
+      "winRate": 0.0,
+      "gamesBack": "2.0",
+      "streak": "2패",
+      "logoUrl": "https://t1.daumcdn.net/media/img-section/sports13/logo/team/1/HT_300300.png"
+    },
+    {
+      "cpTeamId": "WO",
+      "shortName": "키움",
+      "fullName": "키움 히어로즈",
+      "rank": 7,
+      "wins": 0,
+      "losses": 2,
+      "draws": 0,
+      "winRate": 0.0,
+      "gamesBack": "2.0",
+      "streak": "2패",
+      "logoUrl": "https://t1.daumcdn.net/media/img-section/sports13/logo/team/1/WO_300300.png"
+    }
+  ],
+  "players": [
+    {
+      "name": "김진배",
+      "color": "red",
+      "teams": [
+        "SS",
+        "KT",
+        "LT",
+        "OB",
+        "HT"
+      ],
+      "totalScore": 73,
+      "teamScores": [
+        {
+          "cpTeamId": "SS",
+          "rank": 7,
+          "score": 6
+        },
+        {
+          "cpTeamId": "KT",
+          "rank": 1,
+          "score": 25
+        },
+        {
+          "cpTeamId": "LT",
+          "rank": 1,
+          "score": 25
+        },
+        {
+          "cpTeamId": "OB",
+          "rank": 5,
+          "score": 11
+        },
+        {
+          "cpTeamId": "HT",
+          "rank": 7,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "name": "윤정묵",
+      "color": "blue",
+      "teams": [
+        "LG",
+        "HH",
+        "NC",
+        "SK",
+        "WO"
+      ],
+      "totalScore": 73,
+      "teamScores": [
+        {
+          "cpTeamId": "LG",
+          "rank": 7,
+          "score": 6
+        },
+        {
+          "cpTeamId": "HH",
+          "rank": 1,
+          "score": 25
+        },
+        {
+          "cpTeamId": "NC",
+          "rank": 5,
+          "score": 11
+        },
+        {
+          "cpTeamId": "SK",
+          "rank": 1,
+          "score": 25
+        },
+        {
+          "cpTeamId": "WO",
+          "rank": 7,
+          "score": 6
+        }
+      ]
+    }
+  ],
+  "todayGames": [
+    {
+      "gameId": 80100522,
+      "date": "20260329",
+      "time": "1400",
+      "status": "END",
+      "homeTeam": "SK",
+      "awayTeam": "HT",
+      "homeScore": 11,
+      "awayScore": 6,
+      "homeWlt": "W",
+      "awayWlt": "L"
+    },
+    {
+      "gameId": 80100523,
+      "date": "20260329",
+      "time": "1400",
+      "status": "END",
+      "homeTeam": "LG",
+      "awayTeam": "KT",
+      "homeScore": 5,
+      "awayScore": 6,
+      "homeWlt": "L",
+      "awayWlt": "W"
+    },
+    {
+      "gameId": 80100524,
+      "date": "20260329",
+      "time": "1400",
+      "status": "END",
+      "homeTeam": "SS",
+      "awayTeam": "LT",
+      "homeScore": 2,
+      "awayScore": 6,
+      "homeWlt": "L",
+      "awayWlt": "W"
+    },
+    {
+      "gameId": 80100525,
+      "date": "20260329",
+      "time": "1400",
+      "status": "END",
+      "homeTeam": "NC",
+      "awayTeam": "OB",
+      "homeScore": 6,
+      "awayScore": 9,
+      "homeWlt": "L",
+      "awayWlt": "W"
+    },
+    {
+      "gameId": 80100526,
+      "date": "20260329",
+      "time": "1400",
+      "status": "END",
+      "homeTeam": "HH",
+      "awayTeam": "WO",
+      "homeScore": 10,
+      "awayScore": 4,
+      "homeWlt": "W",
+      "awayWlt": "L"
+    }
+  ]
+}
