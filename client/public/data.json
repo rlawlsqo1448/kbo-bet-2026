@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-30 23:01:48",
+  "lastUpdated": "2026-03-31 00:23:34",
   "standings": [
     {
       "cpTeamId": "HH",
@@ -212,5 +212,66 @@
       ]
     }
   ],
-  "todayGames": []
+  "todayGames": [
+    {
+      "gameId": 80100527,
+      "date": "20260331",
+      "time": "1830",
+      "status": "BEFORE",
+      "homeTeam": "LG",
+      "awayTeam": "HT",
+      "homeScore": 0,
+      "awayScore": 0,
+      "homeWlt": null,
+      "awayWlt": null
+    },
+    {
+      "gameId": 80100528,
+      "date": "20260331",
+      "time": "1830",
+      "status": "BEFORE",
+      "homeTeam": "HH",
+      "awayTeam": "KT",
+      "homeScore": 0,
+      "awayScore": 0,
+      "homeWlt": null,
+      "awayWlt": null
+    },
+    {
+      "gameId": 80100529,
+      "date": "20260331",
+      "time": "1830",
+      "status": "BEFORE",
+      "homeTeam": "NC",
+      "awayTeam": "LT",
+      "homeScore": 0,
+      "awayScore": 0,
+      "homeWlt": null,
+      "awayWlt": null
+    },
+    {
+      "gameId": 80100530,
+      "date": "20260331",
+      "time": "1830",
+      "status": "BEFORE",
+      "homeTeam": "SS",
+      "awayTeam": "OB",
+      "homeScore": 0,
+      "awayScore": 0,
+      "homeWlt": null,
+      "awayWlt": null
+    },
+    {
+      "gameId": 80100531,
+      "date": "20260331",
+      "time": "1830",
+      "status": "BEFORE",
+      "homeTeam": "SK",
+      "awayTeam": "WO",
+      "homeScore": 0,
+      "awayScore": 0,
+      "homeWlt": null,
+      "awayWlt": null
+    }
+  ]
 }
