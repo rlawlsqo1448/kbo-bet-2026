@@ -18,6 +18,9 @@ concurrency:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - name: 저장소 체크아웃
@@ -42,10 +45,18 @@ jobs:
       - name: 데이터 수집 스크립트 실행
         run: python -u scripts/update_data.py
 
+      - name: GitHub Pages 설정
+        uses: actions/configure-pages@v5
+
       - name: 빌드
         run: pnpm run build
         env:
           GITHUB_PAGES: 'true'
+
+      - name: 빌드 결과 확인
+        run: |
+          echo "=== dist/public ==="
+          find dist/public -maxdepth 3 -type f
 
       - name: Pages 아티팩트 업로드
         uses: actions/upload-pages-artifact@v3
