@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-31 18:49:01",
+  "lastUpdated": "2026-03-31 19:41:19",
   "standings": [
     {
       "cpTeamId": "HH",
@@ -221,7 +221,7 @@
       "homeTeam": "LG",
       "awayTeam": "HT",
       "homeScore": 0,
-      "awayScore": 1,
+      "awayScore": 7,
       "homeWlt": null,
       "awayWlt": null
     },
@@ -244,8 +244,8 @@
       "status": "PLAY",
       "homeTeam": "NC",
       "awayTeam": "LT",
-      "homeScore": 0,
-      "awayScore": 1,
+      "homeScore": 3,
+      "awayScore": 2,
       "homeWlt": null,
       "awayWlt": null
     },
@@ -256,8 +256,8 @@
       "status": "PLAY",
       "homeTeam": "SS",
       "awayTeam": "OB",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 1,
+      "awayScore": 4,
       "homeWlt": null,
       "awayWlt": null
     },
@@ -268,8 +268,8 @@
       "status": "PLAY",
       "homeTeam": "SK",
       "awayTeam": "WO",
-      "homeScore": 0,
-      "awayScore": 1,
+      "homeScore": 1,
+      "awayScore": 2,
       "homeWlt": null,
       "awayWlt": null
     }
