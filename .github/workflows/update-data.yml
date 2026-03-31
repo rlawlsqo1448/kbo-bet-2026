@@ -1,30 +1,23 @@
-name: KBO 데이터 자동 업데이트
+name: KBO 데이터 자동 업데이트 및 배포
 
 on:
-  # 수동 실행 가능
   workflow_dispatch:
-
-  # 스케줄: KBO 시즌 중 (3월~10월)
-  # 경기일 기준 오후 2시 ~ 밤 11시 사이 10분마다 실행 (KST)
-  # cron은 UTC 기준이므로 KST -9시간 = UTC 05:00 ~ 14:00
   schedule:
-    # 매일 UTC 05:00 ~ 14:00 사이 10분마다 (KST 14:00 ~ 23:00)
     - cron: "*/10 5-14 * 3-10 *"
-
-    # 매일 아침 한 번 (KST 09:00 = UTC 00:00) - 전날 최종 결과 반영
     - cron: "0 0 * 3-10 *"
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
 jobs:
-  update:
+  build-and-deploy:
     runs-on: ubuntu-latest
-
-    # 동시 실행 방지
-    concurrency:
-      group: kbo-data-update
-      cancel-in-progress: true
-
-    permissions:
-      contents: write
 
     steps:
       - name: 저장소 체크아웃
@@ -35,14 +28,30 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: 데이터 수집 스크립트 실행
-        run: python scripts/update_data.py
+      - name: Node.js 설정
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
 
-      - name: 변경사항 커밋 및 푸시
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add client/public/data.json
-          # 변경사항이 있을 때만 커밋
-          git diff --staged --quiet || git commit -m "자동 업데이트: $(TZ='Asia/Seoul' date '+%Y-%m-%d %H:%M KST')"
-          git push
+      - name: pnpm 설치
+        run: npm install -g pnpm
+
+      - name: 의존성 설치
+        run: pnpm install
+
+      - name: 데이터 수집 스크립트 실행
+        run: python -u scripts/update_data.py
+
+      - name: 빌드
+        run: pnpm run build
+        env:
+          GITHUB_PAGES: 'true'
+
+      - name: Pages 아티팩트 업로드
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist/public
+
+      - name: GitHub Pages 배포
+        id: deployment
+        uses: actions/deploy-pages@v4
