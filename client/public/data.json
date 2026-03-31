@@ -1,19 +1,6 @@
 {
-  "lastUpdated": "2026-03-31 21:40:12",
+  "lastUpdated": "2026-03-31 23:18:58",
   "standings": [
-    {
-      "cpTeamId": "HH",
-      "shortName": "한화",
-      "fullName": "한화 이글스",
-      "rank": 1,
-      "wins": 2,
-      "losses": 0,
-      "draws": 0,
-      "winRate": 1.0,
-      "gamesBack": "0.5",
-      "streak": "2승",
-      "logoUrl": "https://t1.daumcdn.net/media/img-section/sports13/logo/team/1/HH_300300.png"
-    },
     {
       "cpTeamId": "SK",
       "shortName": "SSG",
@@ -32,97 +19,110 @@
       "shortName": "KT",
       "fullName": "KT 위즈",
       "rank": 1,
-      "wins": 2,
+      "wins": 3,
       "losses": 0,
       "draws": 0,
       "winRate": 1.0,
-      "gamesBack": "0.5",
-      "streak": "2승",
+      "gamesBack": "0.0",
+      "streak": "3승",
       "logoUrl": "https://t1.daumcdn.net/media/img-section/sports13/logo/team/1/KT_300300.png"
     },
     {
-      "cpTeamId": "LT",
-      "shortName": "롯데",
-      "fullName": "롯데 자이언츠",
-      "rank": 1,
+      "cpTeamId": "HH",
+      "shortName": "한화",
+      "fullName": "한화 이글스",
+      "rank": 3,
       "wins": 2,
-      "losses": 0,
+      "losses": 1,
       "draws": 0,
-      "winRate": 1.0,
-      "gamesBack": "0.5",
-      "streak": "2승",
-      "logoUrl": "https://t1.daumcdn.net/media/img-section/sports13/logo/team/1/LT_300300.png"
+      "winRate": 0.667,
+      "gamesBack": "1.0",
+      "streak": "1패",
+      "logoUrl": "https://t1.daumcdn.net/media/img-section/sports13/logo/team/1/HH_300300.png"
     },
     {
       "cpTeamId": "NC",
       "shortName": "NC",
       "fullName": "NC 다이노스",
-      "rank": 5,
-      "wins": 1,
+      "rank": 3,
+      "wins": 2,
       "losses": 1,
       "draws": 0,
-      "winRate": 0.5,
-      "gamesBack": "1.5",
-      "streak": "1패",
+      "winRate": 0.667,
+      "gamesBack": "1.0",
+      "streak": "1승",
       "logoUrl": "https://t1.daumcdn.net/media/img-section/sports13/logo/team/1/NC_300300.png"
+    },
+    {
+      "cpTeamId": "LT",
+      "shortName": "롯데",
+      "fullName": "롯데 자이언츠",
+      "rank": 3,
+      "wins": 2,
+      "losses": 1,
+      "draws": 0,
+      "winRate": 0.667,
+      "gamesBack": "1.0",
+      "streak": "1패",
+      "logoUrl": "https://t1.daumcdn.net/media/img-section/sports13/logo/team/1/LT_300300.png"
     },
     {
       "cpTeamId": "OB",
       "shortName": "두산",
       "fullName": "두산 베어스",
-      "rank": 5,
+      "rank": 6,
       "wins": 1,
       "losses": 1,
-      "draws": 0,
+      "draws": 1,
       "winRate": 0.5,
       "gamesBack": "1.5",
       "streak": "1승",
       "logoUrl": "https://t1.daumcdn.net/media/img-section/sports13/logo/team/1/OB_300300.png"
     },
     {
+      "cpTeamId": "HT",
+      "shortName": "KIA",
+      "fullName": "KIA 타이거즈",
+      "rank": 7,
+      "wins": 1,
+      "losses": 2,
+      "draws": 0,
+      "winRate": 0.333,
+      "gamesBack": "2.0",
+      "streak": "1승",
+      "logoUrl": "https://t1.daumcdn.net/media/img-section/sports13/logo/team/1/HT_300300.png"
+    },
+    {
       "cpTeamId": "LG",
       "shortName": "LG",
       "fullName": "LG 트윈스",
-      "rank": 7,
+      "rank": 8,
       "wins": 0,
-      "losses": 2,
+      "losses": 3,
       "draws": 0,
       "winRate": 0.0,
-      "gamesBack": "2.5",
-      "streak": "2패",
+      "gamesBack": "3.0",
+      "streak": "3패",
       "logoUrl": "https://t1.daumcdn.net/media/img-section/sports13/logo/team/1/LG_300300.png"
     },
     {
       "cpTeamId": "SS",
       "shortName": "삼성",
       "fullName": "삼성 라이온즈",
-      "rank": 7,
+      "rank": 8,
       "wins": 0,
       "losses": 2,
-      "draws": 0,
+      "draws": 1,
       "winRate": 0.0,
       "gamesBack": "2.5",
       "streak": "2패",
       "logoUrl": "https://t1.daumcdn.net/media/img-section/sports13/logo/team/1/SS_300300.png"
     },
     {
-      "cpTeamId": "HT",
-      "shortName": "KIA",
-      "fullName": "KIA 타이거즈",
-      "rank": 7,
-      "wins": 0,
-      "losses": 2,
-      "draws": 0,
-      "winRate": 0.0,
-      "gamesBack": "2.5",
-      "streak": "2패",
-      "logoUrl": "https://t1.daumcdn.net/media/img-section/sports13/logo/team/1/HT_300300.png"
-    },
-    {
       "cpTeamId": "WO",
       "shortName": "키움",
       "fullName": "키움 히어로즈",
-      "rank": 7,
+      "rank": 8,
       "wins": 0,
       "losses": 3,
       "draws": 0,
@@ -143,12 +143,12 @@
         "OB",
         "HT"
       ],
-      "totalScore": 73,
+      "totalScore": 60,
       "teamScores": [
         {
           "cpTeamId": "SS",
-          "rank": 7,
-          "score": 6
+          "rank": 8,
+          "score": 4
         },
         {
           "cpTeamId": "KT",
@@ -157,13 +157,13 @@
         },
         {
           "cpTeamId": "LT",
-          "rank": 1,
-          "score": 25
+          "rank": 3,
+          "score": 17
         },
         {
           "cpTeamId": "OB",
-          "rank": 5,
-          "score": 11
+          "rank": 6,
+          "score": 8
         },
         {
           "cpTeamId": "HT",
@@ -182,22 +182,22 @@
         "SK",
         "WO"
       ],
-      "totalScore": 73,
+      "totalScore": 67,
       "teamScores": [
         {
           "cpTeamId": "LG",
-          "rank": 7,
-          "score": 6
+          "rank": 8,
+          "score": 4
         },
         {
           "cpTeamId": "HH",
-          "rank": 1,
-          "score": 25
+          "rank": 3,
+          "score": 17
         },
         {
           "cpTeamId": "NC",
-          "rank": 5,
-          "score": 11
+          "rank": 3,
+          "score": 17
         },
         {
           "cpTeamId": "SK",
@@ -206,8 +206,8 @@
         },
         {
           "cpTeamId": "WO",
-          "rank": 7,
-          "score": 6
+          "rank": 8,
+          "score": 4
         }
       ]
     }
@@ -229,13 +229,13 @@
       "gameId": 80100528,
       "date": "20260331",
       "time": "1830",
-      "status": "PLAY",
+      "status": "END",
       "homeTeam": "HH",
       "awayTeam": "KT",
-      "homeScore": 0,
-      "awayScore": 6,
-      "homeWlt": null,
-      "awayWlt": null
+      "homeScore": 4,
+      "awayScore": 9,
+      "homeWlt": "L",
+      "awayWlt": "W"
     },
     {
       "gameId": 80100529,
@@ -253,13 +253,13 @@
       "gameId": 80100530,
       "date": "20260331",
       "time": "1830",
-      "status": "PLAY",
+      "status": "END",
       "homeTeam": "SS",
       "awayTeam": "OB",
       "homeScore": 5,
       "awayScore": 5,
-      "homeWlt": null,
-      "awayWlt": null
+      "homeWlt": "D",
+      "awayWlt": "D"
     },
     {
       "gameId": 80100531,
