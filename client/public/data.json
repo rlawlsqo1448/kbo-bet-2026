@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-31 17:43:00",
+  "lastUpdated": "2026-03-31 18:49:01",
   "standings": [
     {
       "cpTeamId": "HH",
@@ -217,11 +217,11 @@
       "gameId": 80100527,
       "date": "20260331",
       "time": "1830",
-      "status": "BEFORE",
+      "status": "PLAY",
       "homeTeam": "LG",
       "awayTeam": "HT",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 1,
       "homeWlt": null,
       "awayWlt": null
     },
@@ -229,11 +229,11 @@
       "gameId": 80100528,
       "date": "20260331",
       "time": "1830",
-      "status": "BEFORE",
+      "status": "PLAY",
       "homeTeam": "HH",
       "awayTeam": "KT",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 1,
       "homeWlt": null,
       "awayWlt": null
     },
@@ -241,11 +241,11 @@
       "gameId": 80100529,
       "date": "20260331",
       "time": "1830",
-      "status": "BEFORE",
+      "status": "PLAY",
       "homeTeam": "NC",
       "awayTeam": "LT",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 1,
       "homeWlt": null,
       "awayWlt": null
     },
@@ -253,7 +253,7 @@
       "gameId": 80100530,
       "date": "20260331",
       "time": "1830",
-      "status": "BEFORE",
+      "status": "PLAY",
       "homeTeam": "SS",
       "awayTeam": "OB",
       "homeScore": 0,
@@ -265,11 +265,11 @@
       "gameId": 80100531,
       "date": "20260331",
       "time": "1830",
-      "status": "BEFORE",
+      "status": "PLAY",
       "homeTeam": "SK",
       "awayTeam": "WO",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 1,
       "homeWlt": null,
       "awayWlt": null
     }
