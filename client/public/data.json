@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-31 20:37:35",
+  "lastUpdated": "2026-03-31 21:40:12",
   "standings": [
     {
       "cpTeamId": "HH",
@@ -10,7 +10,7 @@
       "losses": 0,
       "draws": 0,
       "winRate": 1.0,
-      "gamesBack": "0.0",
+      "gamesBack": "0.5",
       "streak": "2승",
       "logoUrl": "https://t1.daumcdn.net/media/img-section/sports13/logo/team/1/HH_300300.png"
     },
@@ -19,12 +19,12 @@
       "shortName": "SSG",
       "fullName": "SSG 랜더스",
       "rank": 1,
-      "wins": 2,
+      "wins": 3,
       "losses": 0,
       "draws": 0,
       "winRate": 1.0,
       "gamesBack": "0.0",
-      "streak": "2승",
+      "streak": "3승",
       "logoUrl": "https://t1.daumcdn.net/media/img-section/sports13/logo/team/1/SK_300300.png"
     },
     {
@@ -36,7 +36,7 @@
       "losses": 0,
       "draws": 0,
       "winRate": 1.0,
-      "gamesBack": "0.0",
+      "gamesBack": "0.5",
       "streak": "2승",
       "logoUrl": "https://t1.daumcdn.net/media/img-section/sports13/logo/team/1/KT_300300.png"
     },
@@ -49,7 +49,7 @@
       "losses": 0,
       "draws": 0,
       "winRate": 1.0,
-      "gamesBack": "0.0",
+      "gamesBack": "0.5",
       "streak": "2승",
       "logoUrl": "https://t1.daumcdn.net/media/img-section/sports13/logo/team/1/LT_300300.png"
     },
@@ -62,7 +62,7 @@
       "losses": 1,
       "draws": 0,
       "winRate": 0.5,
-      "gamesBack": "1.0",
+      "gamesBack": "1.5",
       "streak": "1패",
       "logoUrl": "https://t1.daumcdn.net/media/img-section/sports13/logo/team/1/NC_300300.png"
     },
@@ -75,7 +75,7 @@
       "losses": 1,
       "draws": 0,
       "winRate": 0.5,
-      "gamesBack": "1.0",
+      "gamesBack": "1.5",
       "streak": "1승",
       "logoUrl": "https://t1.daumcdn.net/media/img-section/sports13/logo/team/1/OB_300300.png"
     },
@@ -88,7 +88,7 @@
       "losses": 2,
       "draws": 0,
       "winRate": 0.0,
-      "gamesBack": "2.0",
+      "gamesBack": "2.5",
       "streak": "2패",
       "logoUrl": "https://t1.daumcdn.net/media/img-section/sports13/logo/team/1/LG_300300.png"
     },
@@ -101,7 +101,7 @@
       "losses": 2,
       "draws": 0,
       "winRate": 0.0,
-      "gamesBack": "2.0",
+      "gamesBack": "2.5",
       "streak": "2패",
       "logoUrl": "https://t1.daumcdn.net/media/img-section/sports13/logo/team/1/SS_300300.png"
     },
@@ -114,7 +114,7 @@
       "losses": 2,
       "draws": 0,
       "winRate": 0.0,
-      "gamesBack": "2.0",
+      "gamesBack": "2.5",
       "streak": "2패",
       "logoUrl": "https://t1.daumcdn.net/media/img-section/sports13/logo/team/1/HT_300300.png"
     },
@@ -124,11 +124,11 @@
       "fullName": "키움 히어로즈",
       "rank": 7,
       "wins": 0,
-      "losses": 2,
+      "losses": 3,
       "draws": 0,
       "winRate": 0.0,
-      "gamesBack": "2.0",
-      "streak": "2패",
+      "gamesBack": "3.0",
+      "streak": "3패",
       "logoUrl": "https://t1.daumcdn.net/media/img-section/sports13/logo/team/1/WO_300300.png"
     }
   ],
@@ -217,13 +217,13 @@
       "gameId": 80100527,
       "date": "20260331",
       "time": "1830",
-      "status": "PLAY",
+      "status": "END",
       "homeTeam": "LG",
       "awayTeam": "HT",
-      "homeScore": 0,
+      "homeScore": 2,
       "awayScore": 7,
-      "homeWlt": null,
-      "awayWlt": null
+      "homeWlt": "L",
+      "awayWlt": "W"
     },
     {
       "gameId": 80100528,
@@ -233,7 +233,7 @@
       "homeTeam": "HH",
       "awayTeam": "KT",
       "homeScore": 0,
-      "awayScore": 2,
+      "awayScore": 6,
       "homeWlt": null,
       "awayWlt": null
     },
@@ -241,13 +241,13 @@
       "gameId": 80100529,
       "date": "20260331",
       "time": "1830",
-      "status": "PLAY",
+      "status": "END",
       "homeTeam": "NC",
       "awayTeam": "LT",
-      "homeScore": 6,
+      "homeScore": 9,
       "awayScore": 2,
-      "homeWlt": null,
-      "awayWlt": null
+      "homeWlt": "W",
+      "awayWlt": "L"
     },
     {
       "gameId": 80100530,
@@ -256,7 +256,7 @@
       "status": "PLAY",
       "homeTeam": "SS",
       "awayTeam": "OB",
-      "homeScore": 1,
+      "homeScore": 5,
       "awayScore": 5,
       "homeWlt": null,
       "awayWlt": null
@@ -265,13 +265,13 @@
       "gameId": 80100531,
       "date": "20260331",
       "time": "1830",
-      "status": "PLAY",
+      "status": "END",
       "homeTeam": "SK",
       "awayTeam": "WO",
-      "homeScore": 7,
-      "awayScore": 2,
-      "homeWlt": null,
-      "awayWlt": null
+      "homeScore": 9,
+      "awayScore": 3,
+      "homeWlt": "W",
+      "awayWlt": "L"
     }
   ]
 }
